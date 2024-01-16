@@ -6,7 +6,11 @@ model = dl.load("word2vec-google-news-300")
 # you can access the vocabulary like so:
 vocab = model.index_to_key
 target_words = ["car","dog","apple","face","vice"]
-for target_word in target_words:
+poly_words=["bank","bat","apple"]
+def similiarity_score(emb_model,word1, word2):
+    return emb_model.similarity(word1, word2)
+
+for target_word in []:
     print(target_word)
     # Check if the target word is in the vocabulary
     if target_word in model:
@@ -17,3 +21,10 @@ for target_word in target_words:
         print(f"The most similar words to '{target_word}' are:")
         for word, similarity in similar_words:
             print(f"{word}: {similarity}")
+
+w1='Happy'
+w2='Gay'
+w3='Sad'
+print("sim w1,w2",similiarity_score(model,w1,w2))
+print("sim w1,w3",similiarity_score(model,w1,w3))
+

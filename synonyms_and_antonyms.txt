@@ -1,0 +1,3 @@
+w1=Happy
+w2=Gay
+w3=Sad
