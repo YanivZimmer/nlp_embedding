@@ -10,17 +10,18 @@ poly_words=["bank","bat","apple"]
 def similiarity_score(emb_model,word1, word2):
     return emb_model.similarity(word1, word2)
 
-for target_word in []:
-    print(target_word)
-    # Check if the target word is in the vocabulary
-    if target_word in model:
-        # Find the most similar words
-        similar_words = model.most_similar(target_word, topn=20)
+def most_similar_words(emb_model,words):
+    for target_word in words:
+        print(target_word)
+        # Check if the target word is in the vocabulary
+        if target_word in emb_model:
+            # Find the most similar words
+            similar_words = emb_model.most_similar(target_word, topn=20)
 
-        # Print the results
-        print(f"The most similar words to '{target_word}' are:")
-        for word, similarity in similar_words:
-            print(f"{word}: {similarity}")
+            # Print the results
+            print(f"The most similar words to '{target_word}' are:")
+            for word, similarity in similar_words:
+                print(f"{word}: {similarity}")
 
 w1='Happy'
 w2='Gay'
