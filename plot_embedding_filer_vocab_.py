@@ -11,7 +11,7 @@ def plot_emd(ed_emb,ing_emb):
 
     # Plot the points
     plt.scatter(ed_x, ed_y, marker='o', label='ed',c='blue')
-    plt.scatter(ing_x, ing_y, marker='o', label='ing', c='greed')
+    plt.scatter(ing_x, ing_y, marker='o', label='ing', c='green')
 
     # Add labels and title
     plt.xlabel('X-axis')
