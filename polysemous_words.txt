@@ -1,0 +1,148 @@
+Polysemous Words
+
+Polysemous Words that the top-10 neighbors of each word reflect both word meanings:
+in this case we found:
+- "apple" - there are only
+
+(only one meaning neighbors)
+The most similar words to 'apple' are:
+apples: 0.720359742641449
+pear: 0.6450697183609009
+fruit: 0.6410146355628967
+berry: 0.6302295327186584
+pears: 0.613396167755127
+strawberry: 0.6058261394500732
+peach: 0.6025872230529785
+potato: 0.5960935354232788
+grape: 0.5935863852500916
+blueberry: 0.5866668224334717
+
+(both meaning neighbors)
+The most similar words to 'mouse' are:
+Logitech_MX_Revolution: 0.6175231337547302
+Razer_Mamba: 0.5994570851325989
+mice: 0.5896885395050049
+cordless_laser: 0.5652030110359192
+VX_Nano: 0.5619358420372009
+Logitech_MX###: 0.5604779720306396
+keyboard_arrow_keys: 0.5545550584793091
+Logitech_G9x: 0.5538491606712341
+NOTE_TO_READERS_Hovering: 0.5520267486572266
+Razer_Abyssus: 0.5489388704299927
+
+(only one meaning neighbors)
+The most similar words to 'pen' are:
+pens: 0.7111663222312927
+pencil: 0.5767994523048401
+quill: 0.5656781792640686
+ballpoint: 0.5653775930404663
+prefilled_disposable_insulin: 0.5509082674980164
+ballpoint_pen: 0.541506290435791
+Vera_Ramone: 0.5361527800559998
+feather_quill: 0.5316810607910156
+notepad: 0.526630163192749
+quill_pen: 0.5166343450546265
+
+(both meaning neighbors)
+The most similar words to 'dish' are:
+dishes: 0.7938355803489685
+risotto: 0.6626607179641724
+casserole: 0.6550886034965515
+crab_rangoon: 0.6336711049079895
+pasta_dish: 0.6292396187782288
+lamb_biryani: 0.6248414516448975
+tartare_sauce: 0.617826521396637
+pastry_crust: 0.6157413721084595
+giardiniera: 0.6154837012290955
+shrimp_appetizer: 0.6145071387290955
+
+(only one meaning neighbors)
+The most similar words to 'frame' are:
+frames: 0.66984623670578
+frame_Benaquist: 0.5405733585357666
+2_#/#-story_wood: 0.5347802042961121
+Flushing_Meadows_shanked: 0.49942559003829956
+respotted_black: 0.48342156410217285
+kiln_dried_hardwood: 0.4691735506057739
+goes_BERSERK: 0.4624682068824768
+Uniek_digital_picture: 0.45988729596138
+fluked_red: 0.4522894024848938
+Feeder_heifers_medium: 0.4409336447715759
+
+(only one meaning neighbors)
+The most similar words to 'cap' are:
+caps: 0.7752922773361206
+flags_flapped_wildly: 0.5214465260505676
+ORADUR_TM_sustained: 0.5110943913459778
+Gladiatorstocks.com_premier_micro: 0.49276676774024963
+capping: 0.49047213792800903
+miso_soup_bowls: 0.49014028906822205
+Tanner_Tokunaga_doubled: 0.4813576638698578
+register_visit_http://www.smallcapreview.com/subscribe.htm: 0.47929906845092773
+PennyStockAlley.com_premier_micro: 0.47388172149658203
+microcap_investor: 0.4599173963069916
+
+(only one meaning neighbors)
+The most similar words to 'drive' are:
+drives: 0.7914609909057617
+driving: 0.5405872464179993
+drove: 0.5120137333869934
+push: 0.4905554950237274
+run: 0.4834049940109253
+Seagate_SV##_Series: 0.4491744935512543
+driven: 0.44512292742729187
+drives_SEDs: 0.4293723702430725
+Drives: 0.42788973450660706
+##GB_JetFlash_V##: 0.4258197546005249
+
+(only one meaning neighbors)
+The most similar words to 'satellite' are:
+satellites: 0.7678968906402588
+Satellite: 0.7367128729820251
+geostationary_communications: 0.6455783247947693
+geostationary_satellite: 0.6399902105331421
+sattelite: 0.6370919346809387
+NASA_GeneSat_1: 0.6245810389518738
+Gadaf_spoke: 0.6196396946907043
+iPSTAR_broadband: 0.6189230680465698
+geo_stationary_satellite: 0.6126393675804138
+geostationary_satellites: 0.6115455031394958
+
+(both meaning neighbors)
+The most similar words to 'bat' are:
+bats: 0.7677518725395203
+batting: 0.6346986293792725
+Pinch_hitter_Brayan_Pena: 0.6011941432952881
+batsman: 0.5579798221588135
+batted: 0.5542199611663818
+Hawaiian_hoary: 0.5447419881820679
+Lelands.com_auctioned: 0.5397745370864868
+yelled_Cheater: 0.538004457950592
+wicketkeeper_Andrew_Hodd: 0.5371008515357971
+lefthanded_batter: 0.53566575050354
+
+(only one meaning neighbors)
+The most similar words to 'bank' are:
+banks: 0.7440759539604187
+banking: 0.690161406993866
+Bank: 0.6698698401451111
+lender: 0.6342284679412842
+banker: 0.6092953085899353
+depositors: 0.6031531691551208
+mortgage_lender: 0.5797975659370422
+depositor: 0.5716428160667419
+BofA: 0.5714625120162964
+Citibank: 0.5589520931243896
+
+(only one meaning neighbors)
+The most similar words to 'rose' are:
+surged: 0.8056201338768005
+climbed: 0.8045108318328857
+soared: 0.7695155739784241
+fell: 0.7688519954681396
+tumbled: 0.725606381893158
+dipped: 0.7209846377372742
+jumped: 0.6997674107551575
+inched: 0.679102897644043
+risen: 0.6686744093894958
+plunged: 0.663558840751648

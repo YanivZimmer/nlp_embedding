@@ -1,5 +1,7 @@
-w1=Happy
-w2=Gay
-w3=Sad
-sim w1,w2 0.18161133
-sim w1,w3 0.43675756
+w1, w2, w3 = 'Happy', 'Gay', 'Sad'
+sim w1, w2: 0.18161133
+sim w1, w3: 0.43675756
+
+w1, w2, w3 = 'rose', 'soar', 'decreased'
+sim w1, w2: 0.45347553
+sim w1, w3: 0.5525813
