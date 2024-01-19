@@ -20,6 +20,7 @@ def similarity_score(model, word1, word2):
 
 def most_similar_words(model, words, num):
     for target_word in words:
+        res = []
         # Check if the target word is in the vocabulary
         if target_word in model:
             # Find the most similar words
@@ -27,9 +28,9 @@ def most_similar_words(model, words, num):
 
             # Print the results
             print(f"The most similar words to '{target_word}' are:")
-            for word, similarity in similar_words:
-                print(f"{word}: {similarity}")
-
+            for word, _ in similar_words:
+                res += [word]
+        print(res)
         print("\n")
 
 def most_similar_words_two_models(model1, model1_name, model2, model2_name, words, num):
@@ -51,7 +52,7 @@ def most_similar_words_two_models(model1, model1_name, model2, model2_name, word
 if __name__ == "__main__":
     # Generating lists of the most similar words
     target_words = ["car", "dog", "apple", "face", "vice"]
-    #most_similar_words(model_google, target_words, 20)
+    most_similar_words(model_google, target_words, 100)
 
     # Polysemous Words
     #most_similar_words(model_google, polysemous_words, 10)
@@ -67,7 +68,7 @@ if __name__ == "__main__":
     '''
 
     # The Effect of Different Corpora
-    target_words = ["car", "dog", "apple", "rain", "weekend", "report",
-                    "pillow", "outlet", "manufacture", "course", "truck", "thanks"
-                    , "king", "panic", "smiley", "haha", "crazy", "love"]
-    most_similar_words_two_models(model_wiki, "wiki", model_twitter, "twitter", target_words, 10)
+    #target_words = ["car", "dog", "apple", "rain", "weekend", "report",
+    #                "pillow", "outlet", "manufacture", "course", "truck", "thanks"
+    #                , "king", "panic", "smiley", "haha", "crazy", "love"]
+    #most_similar_words_two_models(model_wiki, "wiki", model_twitter, "twitter", target_words, 10)
