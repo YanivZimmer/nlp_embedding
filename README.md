@@ -2,14 +2,16 @@
 submitters:
 Submitters: Ori Braverman 318917010
 			Yaniv Zimmer 318849908
+
+Ploting Code: "plot_embedding_filer_vocab_.py"
+
+Additional Scripts:
 The code in "section1.py" refer to:
 -Generating lists of the most similar words
 -Polysemous Words
 -Synonyms and Antonyms
 -The Effect of Different Corpora
 -section 2 - related words(give 100 word lists)
-
-The code in "plot_embedding_filer_vocab_.py" refer to the work in section 2.
 
 there are a few output files:
 1. "effect_of_different_corpora.txt" for the output of -The Effect of Different Corpora
