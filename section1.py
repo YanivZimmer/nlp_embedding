@@ -52,23 +52,25 @@ def most_similar_words_two_models(model1, model1_name, model2, model2_name, word
 if __name__ == "__main__":
     # Generating lists of the most similar words
     target_words = ["car", "dog", "apple", "face", "vice"]
-    most_similar_words(model_google, target_words, 100)
+    most_similar_words(model_google, target_words, 20)
 
     # Polysemous Words
-    #most_similar_words(model_google, polysemous_words, 10)
+    most_similar_words(model_google, polysemous_words, 10)
 
     # Synonyms and Antonyms
-    '''
     w1, w2, w3 = 'Happy', 'Gay', 'Sad'
     print("sim w1, w2:", similarity_score(model_google, w1, w2))
     print("sim w1, w3:", similarity_score(model_google, w1, w3))
     w1, w2, w3 = 'rose', 'soar', 'decreased'
     print("sim w1, w2:", similarity_score(model_google, w1, w2))
     print("sim w1, w3:", similarity_score(model_google, w1, w3))
-    '''
 
     # The Effect of Different Corpora
-    #target_words = ["car", "dog", "apple", "rain", "weekend", "report",
-    #                "pillow", "outlet", "manufacture", "course", "truck", "thanks"
-    #                , "king", "panic", "smiley", "haha", "crazy", "love"]
-    #most_similar_words_two_models(model_wiki, "wiki", model_twitter, "twitter", target_words, 10)
+    target_words = ["car", "dog", "apple", "rain", "weekend", "report",
+                    "pillow", "outlet", "manufacture", "course", "truck", "thanks"
+                    , "king", "panic", "smiley", "haha", "crazy", "love"]
+    most_similar_words_two_models(model_wiki, "wiki", model_twitter, "twitter", target_words, 10)
+
+    # Related Words
+    target_words = ["dog", "apple"]
+    most_similar_words(model_google, target_words, 100)
